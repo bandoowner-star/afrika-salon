@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Салон красоты «Африка» — Пермь, 1-я Красноармейская, 41А</title>
+  <meta name="description" content="Салон красоты «Африка» в центре Перми: стрижки, сложное окрашивание Kezy и L'Oréal, уходы, маникюр, педикюр, массаж. Рейтинг 4,8 на Яндекс Картах. Запись: +7 (908) 271-02-23.">
+  <meta name="theme-color" content="#0a120d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Салон красоты «Африка» — Пермь">
+  <meta property="og:description" content="Стрижки, окрашивание, уходы, маникюр, педикюр и массаж в центре Перми. Рейтинг 4,8.">
+  <meta property="og:image" content="assets/og.jpg">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" as="image" href="assets/wordmark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Африка",
+    "image": "assets/og.jpg",
+    "telephone": "+7 908 271-02-23",
+    "address": {"@type": "PostalAddress", "streetAddress": "1-я Красноармейская ул., 41А, офис 5", "addressLocality": "Пермь", "postalCode": "614039", "addressCountry": "RU"},
+    "geo": {"@type": "GeoCoordinates", "latitude": 57.999797, "longitude": 56.251928},
+    "openingHours": ["Mo-Fr 10:00-20:00", "Sa-Su 10:00-18:00"],
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "135"},
+    "sameAs": ["https://vk.ru/salonafrica", "https://t.me/afrika_Loft"]
+  }
+  </script>
+</head>
+<body class="is-loading">
+
+  <!-- Общие SVG: лист -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#3f7a4c"/>
+        <stop offset=".55" stop-color="#1f4a2c"/>
+        <stop offset="1" stop-color="#0e2416"/>
+      </linearGradient>
+      <symbol id="leaf" viewBox="0 0 120 300">
+        <path d="M60 4 C112 60 124 170 60 296 C-4 170 8 60 60 4Z" fill="url(#leafGrad)"/>
+        <path d="M60 14 C58 110 60 200 60 290" stroke="#79a982" stroke-opacity=".55" stroke-width="2.2" fill="none"/>
+        <g stroke="#79a982" stroke-opacity=".28" stroke-width="1.4" fill="none">
+          <path d="M60 60 Q78 52 92 40"/><path d="M60 60 Q42 52 28 40"/>
+          <path d="M60 100 Q84 90 102 72"/><path d="M60 100 Q36 90 18 72"/>
+          <path d="M60 140 Q86 130 106 108"/><path d="M60 140 Q34 130 14 108"/>
+          <path d="M60 180 Q84 172 104 150"/><path d="M60 180 Q36 172 16 150"/>
+          <path d="M60 220 Q80 214 96 196"/><path d="M60 220 Q40 214 24 196"/>
+          <path d="M60 256 Q72 252 84 240"/><path d="M60 256 Q48 252 36 240"/>
+        </g>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ИНТРО -->
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro__leaves">
+      <svg class="intro__leaf l1"><use href="#leaf"/></svg>
+      <svg class="intro__leaf l2"><use href="#leaf"/></svg>
+      <svg class="intro__leaf l3"><use href="#leaf"/></svg>
+      <svg class="intro__leaf l4"><use href="#leaf"/></svg>
+      <svg class="intro__leaf l5"><use href="#leaf"/></svg>
+      <svg class="intro__leaf l6"><use href="#leaf"/></svg>
+      <svg class="intro__leaf l7"><use href="#leaf"/></svg>
+      <svg class="intro__leaf l8"><use href="#leaf"/></svg>
+    </div>
+    <div class="intro__logo">
+      <img class="wm wm--title" src="assets/wordmark.png" alt="">
+      <img class="wm wm--name" src="assets/wordmark.png" alt="">
+      <img class="wm wm--branch" src="assets/wordmark.png" alt="">
+    </div>
+    <button class="intro__skip" type="button">пропустить</button>
+  </div>
+
+  <!-- ШАПКА -->
+  <header class="header" id="header">
+    <a class="header__logo" href="#top" aria-label="Салон красоты «Африка» — на главную">
+      <img src="assets/wordmark.png" alt="Салон красоты Африка">
+    </a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#about">О салоне</a>
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+      <a class="nav__phone" href="tel:+79082710223">+7 (908) 271-02-23</a>
+    </nav>
+    <a class="btn btn--small header__cta" href="#booking">Записаться</a>
+    <button class="burger" id="burger" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__bg" id="heroBg"></div>
+      <div class="hero__shade"></div>
+      <svg class="hero__leaf hl1"><use href="#leaf"/></svg>
+      <svg class="hero__leaf hl2"><use href="#leaf"/></svg>
+      <svg class="hero__leaf hl3"><use href="#leaf"/></svg>
+      <svg class="hero__leaf hl4"><use href="#leaf"/></svg>
+      <div class="hero__content">
+        <h1 class="hero__title">
+          <span class="sr-only">Салон красоты «Африка» в Перми</span>
+          <img class="hero__wm" src="assets/wordmark.png" alt="" width="1080" height="542">
+        </h1>
+        <p class="hero__lead" data-hero>Стрижки, сложное окрашивание, уходы, маникюр, педикюр и&nbsp;массаж в&nbsp;самом центре Перми</p>
+        <div class="hero__actions" data-hero>
+          <a class="btn" href="#booking">Записаться</a>
+          <a class="btn btn--ghost" href="#prices">Смотреть цены</a>
+        </div>
+        <a class="hero__rating" data-hero href="https://yandex.ru/maps/org/afrika/56826177003/reviews/" target="_blank" rel="noopener">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <b>4,8</b> · 135 оценок на Яндекс Картах
+        </a>
+      </div>
+      <a class="hero__scroll" href="#about" aria-label="Листать вниз"><span></span></a>
+    </section>
+
+    <!-- БЕГУЩАЯ СТРОКА -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Стрижки</span><i>✦</i><span>Окрашивание</span><i>✦</i><span>Уходы за волосами</span><i>✦</i><span>Маникюр</span><i>✦</i><span>Педикюр</span><i>✦</i><span>Укладки и причёски</span><i>✦</i><span>Массаж</span><i>✦</i><span>Брови и ресницы</span><i>✦</i>
+        <span>Стрижки</span><i>✦</i><span>Окрашивание</span><i>✦</i><span>Уходы за волосами</span><i>✦</i><span>Маникюр</span><i>✦</i><span>Педикюр</span><i>✦</i><span>Укладки и причёски</span><i>✦</i><span>Массаж</span><i>✦</i><span>Брови и ресницы</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- О САЛОНЕ -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__text">
+          <p class="overline reveal">О салоне</p>
+          <h2 class="h2 reveal">Место, куда возвращаются годами</h2>
+          <p class="reveal">«Африка» — уютный салон красоты в&nbsp;центре Перми, на&nbsp;закрытой придомовой территории у&nbsp;кинотеатра «Кристалл». Здесь делают сложное окрашивание и&nbsp;стрижки, ухаживают за&nbsp;волосами, ногтями и&nbsp;телом.</p>
+          <p class="reveal">Гости приходят всей семьёй, приводят детей и&nbsp;подруг, а&nbsp;к&nbsp;своим мастерам ходят по&nbsp;10&nbsp;и&nbsp;даже 20&nbsp;лет. Пока вы&nbsp;в&nbsp;кресле, администратор заварит ароматный кофе или травяной чай.</p>
+          <img class="branch reveal-draw" src="assets/branch.png" alt="" width="1080" height="164">
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><b data-count="4.8" data-decimals="1">0</b><span>рейтинг на&nbsp;Яндекс&nbsp;Картах</span></div>
+          <div class="stat reveal"><b data-count="135">0</b><span>оценок гостей</span></div>
+          <div class="stat reveal"><b data-count="100" data-suffix="%">0</b><span>положительных отзывов об&nbsp;атмосфере</span></div>
+          <div class="stat reveal"><b data-count="96" data-suffix="%">0</b><span>отзывов отмечают компетентность мастеров</span></div>
+        </div>
+      </div>
+
+      <div class="container features">
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24"><path d="M5 17h14M6 17V8l3-3h6l3 3v9M9 17v3M15 17v3M9 11h6"/></svg>
+          <h3>Своя парковка</h3><p>Закрытая придомовая территория — не&nbsp;нужно искать место</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24"><path d="M5 9h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5zM16 10h1.5a2.5 2.5 0 0 1 0 5H16M8 3v3M11 3v3M14 3v3"/></svg>
+          <h3>Кофе и травяной чай</h3><p>Угощаем гостей, пока идёт процедура</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6zM9 12l2 2 4-4"/></svg>
+          <h3>Стерильность</h3><p>Инструменты проходят стерилизацию в&nbsp;сухожаровом шкафу</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24"><path d="M4 10h16v10H4zM3 7h18v3H3zM12 7v13M12 7c-2-4-6-4-6-1.5S10 7 12 7zM12 7c2-4 6-4 6-1.5S14 7 12 7z"/></svg>
+          <h3>Подарочные сертификаты</h3><p>Лучший подарок для тех, кого любите</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg>
+          <h3>С детьми и&nbsp;питомцами</h3><p>Можно прийти с&nbsp;ребёнком и&nbsp;даже с&nbsp;собакой</p>
+        </div>
+        <div class="feature reveal">
+          <svg viewBox="0 0 24 24"><path d="M3 6h18v12H3zM3 10h18M7 15h3"/></svg>
+          <h3>Удобно всем</h3><p>Оплата картой, вход и&nbsp;помещение доступны на&nbsp;коляске</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="section services" id="services">
+      <svg class="deco-leaf dl1"><use href="#leaf"/></svg>
+      <div class="container">
+        <p class="overline reveal">Что мы делаем</p>
+        <h2 class="h2 reveal">Услуги салона</h2>
+        <div class="cards">
+          <article class="card reveal" data-tilt>
+            <span class="card__num">01</span>
+            <h3>Волосы</h3>
+            <p>Женские и мужские стрижки, укладки, вечерние и&nbsp;свадебные причёски, флисинг, химическая завивка.</p>
+            <a href="#prices" data-tab="hair">от 500 ₽ →</a>
+          </article>
+          <article class="card reveal" data-tilt>
+            <span class="card__num">02</span>
+            <h3>Окрашивание и&nbsp;уход</h3>
+            <p>Сложное окрашивание, мелирование, тонирование на&nbsp;Kezy и&nbsp;L'Oréal Professionnel. Уходы Label, Kezy, L'Oréal.</p>
+            <a href="#prices" data-tab="color">от 1200 ₽ →</a>
+          </article>
+          <article class="card reveal" data-tilt>
+            <span class="card__num">03</span>
+            <h3>Маникюр и&nbsp;педикюр</h3>
+            <p>Классический и&nbsp;мужской маникюр, покрытие гель-лаком, френч, дизайн. Экспресс- и&nbsp;смарт-педикюр.</p>
+            <a href="#prices" data-tab="nails">от 100 ₽ →</a>
+          </article>
+          <article class="card reveal" data-tilt>
+            <span class="card__num">04</span>
+            <h3>Массаж и&nbsp;тело</h3>
+            <p>Мануальный, лимфодренажный и&nbsp;антицеллюлитный массаж, уход за&nbsp;телом и&nbsp;коррекция фигуры.</p>
+            <a href="#prices" data-tab="body">от 2000 ₽ →</a>
+          </article>
+          <article class="card reveal" data-tilt>
+            <span class="card__num">05</span>
+            <h3>Брови, ресницы, визаж</h3>
+            <p>Наращивание ресниц, коррекция и&nbsp;окрашивание бровей и&nbsp;ресниц, макияж.</p>
+            <a href="#prices" data-tab="face">подробнее →</a>
+          </article>
+          <article class="card reveal" data-tilt>
+            <span class="card__num">06</span>
+            <h3>Депиляция</h3>
+            <p>Восковая депиляция и&nbsp;шугаринг — бережно и&nbsp;аккуратно.</p>
+            <a href="#prices" data-tab="face">подробнее →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ЦЕНЫ -->
+    <section class="section prices" id="prices">
+      <div class="container">
+        <p class="overline reveal">Прайс-лист</p>
+        <h2 class="h2 reveal">Цены</h2>
+        <div class="tabs reveal" role="tablist" id="tabs"></div>
+        <div class="price-list" id="priceList" role="tabpanel"></div>
+        <p class="note reveal">Цены указаны по&nbsp;данным салона на&nbsp;Яндекс&nbsp;Картах. Точную стоимость уточняйте у&nbsp;администратора — она зависит от&nbsp;длины волос и&nbsp;объёма работы.</p>
+      </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section class="section reviews" id="reviews">
+      <svg class="deco-leaf dl2"><use href="#leaf"/></svg>
+      <div class="container">
+        <p class="overline reveal">Отзывы</p>
+        <h2 class="h2 reveal">Что говорят гости</h2>
+        <div class="slider reveal" id="slider">
+          <div class="slider__track" id="sliderTrack"></div>
+        </div>
+        <div class="slider__controls">
+          <button type="button" class="round" id="prev" aria-label="Предыдущий отзыв">←</button>
+          <div class="dots" id="dots"></div>
+          <button type="button" class="round" id="next" aria-label="Следующий отзыв">→</button>
+        </div>
+        <p class="center reveal"><a class="link" href="https://yandex.ru/maps/org/afrika/56826177003/reviews/" target="_blank" rel="noopener">Все 60 отзывов на Яндекс Картах →</a></p>
+      </div>
+    </section>
+
+    <!-- ЗАПИСЬ -->
+    <section class="section booking" id="booking">
+      <div class="booking__bg"></div>
+      <div class="container booking__inner">
+        <p class="overline reveal">Запись</p>
+        <h2 class="h2 reveal">Запишитесь удобным способом</h2>
+        <p class="reveal">Подберём мастера и&nbsp;время, ответим на&nbsp;вопросы о&nbsp;процедурах и&nbsp;стоимости.</p>
+        <div class="booking__actions reveal">
+          <a class="btn" href="tel:+79082710223">Позвонить</a>
+          <a class="btn btn--ghost" href="https://wa.me/79082710223?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%B2%20%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%20%C2%AB%D0%90%D1%84%D1%80%D0%B8%D0%BA%D0%B0%C2%BB" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn--ghost" href="https://t.me/afrika_Loft" target="_blank" rel="noopener">Telegram</a>
+          <a class="btn btn--ghost" href="https://yandex.ru/maps/org/afrika/56826177003/" target="_blank" rel="noopener">Онлайн на Яндексе</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="section contacts" id="contacts">
+      <div class="container contacts__grid">
+        <div>
+          <p class="overline reveal">Контакты</p>
+          <h2 class="h2 reveal">Как нас найти</h2>
+          <dl class="info">
+            <div class="reveal"><dt>Адрес</dt><dd>Пермь, 1-я Красноармейская ул., 41А, офис&nbsp;5<br><small>Рядом с кинотеатром «Кристалл», закрытая придомовая территория</small></dd></div>
+            <div class="reveal"><dt>Телефон</dt><dd><a href="tel:+79082710223">+7 (908) 271-02-23</a></dd></div>
+            <div class="reveal"><dt>Соцсети</dt><dd class="socials">
+              <a href="https://vk.ru/salonafrica" target="_blank" rel="noopener">ВКонтакте</a>
+              <a href="https://t.me/afrika_Loft" target="_blank" rel="noopener">Telegram</a>
+              <a href="https://wa.me/79082710223" target="_blank" rel="noopener">WhatsApp</a>
+            </dd></div>
+            <div class="reveal"><dt>Часы работы</dt><dd>
+              <ul class="hours" id="hours">
+                <li data-day="1"><span>Понедельник</span><span>10:00 – 20:00</span></li>
+                <li data-day="2"><span>Вторник</span><span>10:00 – 20:00</span></li>
+                <li data-day="3"><span>Среда</span><span>10:00 – 20:00</span></li>
+                <li data-day="4"><span>Четверг</span><span>10:00 – 20:00</span></li>
+                <li data-day="5"><span>Пятница</span><span>10:00 – 20:00</span></li>
+                <li data-day="6"><span>Суббота</span><span>10:00 – 18:00</span></li>
+                <li data-day="0"><span>Воскресенье</span><span>10:00 – 18:00</span></li>
+              </ul>
+              <p class="open-status" id="openStatus"></p>
+            </dd></div>
+          </dl>
+        </div>
+        <div class="map-wrap reveal">
+          <div class="map">
+            <iframe title="Салон «Африка» на карте" src="https://www.openstreetmap.org/export/embed.html?bbox=56.2449%2C57.9968%2C56.2589%2C58.0028&amp;layer=mapnik" loading="lazy"></iframe>
+            <span class="map__pin" aria-hidden="true"></span>
+          </div>
+          <div class="map__actions">
+            <a class="btn btn--small" href="https://yandex.ru/maps/?rtext=~57.999797%2C56.251928&amp;rtt=auto" target="_blank" rel="noopener">Построить маршрут</a>
+            <a class="btn btn--small btn--ghost" href="https://yandex.ru/maps/org/afrika/56826177003/" target="_blank" rel="noopener">Открыть в Яндекс Картах</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img class="footer__logo" src="assets/wordmark.png" alt="Салон красоты Африка" loading="lazy">
+      <p>Пермь, 1-я Красноармейская ул., 41А, офис 5 · <a href="tel:+79082710223">+7 (908) 271-02-23</a></p>
+      <p class="footer__small">© <span id="year">2026</span> Салон красоты «Африка». Информация об услугах и ценах — по данным Яндекс Карт.</p>
+    </div>
+  </footer>
+
+  <a class="fab" href="#booking" aria-label="Записаться">Записаться</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
